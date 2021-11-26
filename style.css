@@ -1,0 +1,198 @@
+.mama div{
+    width: 300px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+}
+.deti1{
+    position: static;
+    left: 20px;
+    top: 10px;
+}
+.deti2{
+    position: relative;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    top: 10px;
+    z-index: 1;
+}
+.deti3{
+    position: relative;
+    left: 0;
+    right: 13px;
+    bottom: 100px;
+    top: 0;
+}
+.deti4{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti5{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti6{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti7{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti8{
+    position: absolute;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti9{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+}
+.deti10{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti11{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}
+.deti12{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.deti13{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.pencil{
+    position: absolute;
+    left: 50%;
+    width: 80px;
+    height: 600px;
+    background-color: rgb(124, 56, 0);
+    border-radius: 10px;
+}
+.p1{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    bottom: 590px;
+    background-color: rgb(82, 50, 0);
+    clip-path: polygon(50% 0%,100% 90%,100% 100%,0% 100%,0% 90%);
+}
+.grifel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.p2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 26px;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 25px 25px 0 0;
+    border: 1px solid black;
+    animation:name1 3s linear infinite;
+}
+.p3{
+    position: absolute;
+    left: 26px;
+    top: 0;
+    width: 26px;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 25px 25px 0 0;
+    border: 1px solid black;
+    animation:name1 3s linear infinite;
+}
+.p4{
+    position: absolute;
+    left: 52px;
+    top: 0;
+    width: 26px;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 25px 25px 0 0;
+    border: 1px solid black;
+    animation:name1 3s linear infinite;
+}
+    @keyframes name1{
+        0%{
+            background-color: darkblue;
+            box-shadow: inset 2px 5px 3px 2px rgb(80, 57, 57);
+        }
+        50%{
+            background-color: rgb(247, 0, 255);
+            box-shadow: inset 2px 5px 3px 2px rgb(70, 50, 50);
+        }
+        100%{
+            background-color: darkblue;
+            box-shadow: inset 2px 5px 3px 2px rgb(85, 67, 67);
+        }
+    }
+.papa{
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-radius: 100px;
+}    
+.instag {
+    position: relative;
+    left: 70px;
+    top: 60px;
+    z-index: 1;
+    width: 230px;
+    height: 230px;
+    border: 15px solid white;
+    border-radius: 40px;
+}
+.instam {
+    position: relative;
+    left: 40px;
+    top: 40px;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    border: 15px solid white;
+    border-radius: 100%;
+}
+.instochka {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+}
